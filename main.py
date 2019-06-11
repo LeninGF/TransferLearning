@@ -53,13 +53,22 @@ def labelling_outputs(number_of_classes, number_of_samples):
     return labels
 
 
+def labelling_mammo(number_of_classes, number_of_samples):
+    labels = np.ones((number_of_samples,), dtype='int64')
+    labels[0:903] = 0
+    labels[903:] = 1
+    return labels
+
+
+
 def main():
     print('Hello Lenin Welcome to Transfer Learning with VGG16')
     # Reading images to form X vector
-    img_data = read_dataset('/data')
+    img_data = read_dataset('/data_roi_single/train')
     categories_names = ['cats', 'dogs', 'horses', 'humans']
-    num_classes = 4
-    labels = labelling_outputs(num_classes, img_data.shape[0])
+    num_classes = 2
+    # labels = labelling_outputs(num_classes, img_data.shape[0])
+    labels = labelling_mammo(num_classes, img_data.shape[0])
     # converting class labels to one-hot encoding
     y_one_hot =np_utils.to_categorical(labels, num_classes)
     #Shuffle data
@@ -92,7 +101,7 @@ def main():
     print('Transfer Learning Training...')
     t = time.time()
     hist = custom_vgg_model.fit(xtrain, ytrain,
-                                batch_size=32,
+                                batch_size=64,
                                 epochs=10,
                                 verbose=1,
                                 validation_data=(xtest, ytest))

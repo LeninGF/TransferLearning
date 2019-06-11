@@ -1,0 +1,1233 @@
+Hello Lenin Welcome to Transfer Learning with VGG16
+Loading images of dataset -Humans
+
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Loading images of dataset -cats
+
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Loading images of dataset -dogs
+
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Loading images of dataset -horses
+
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+Input image shape:  (1, 224, 224, 3)
+(808, 1, 224, 224, 3)
+(1, 808, 224, 224, 3)
+(808, 224, 224, 3)
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         (None, 224, 224, 3)       0         
+_________________________________________________________________
+block1_conv1 (Conv2D)        (None, 224, 224, 64)      1792      
+_________________________________________________________________
+block1_conv2 (Conv2D)        (None, 224, 224, 64)      36928     
+_________________________________________________________________
+block1_pool (MaxPooling2D)   (None, 112, 112, 64)      0         
+_________________________________________________________________
+block2_conv1 (Conv2D)        (None, 112, 112, 128)     73856     
+_________________________________________________________________
+block2_conv2 (Conv2D)        (None, 112, 112, 128)     147584    
+_________________________________________________________________
+block2_pool (MaxPooling2D)   (None, 56, 56, 128)       0         
+_________________________________________________________________
+block3_conv1 (Conv2D)        (None, 56, 56, 256)       295168    
+_________________________________________________________________
+block3_conv2 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_conv3 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_pool (MaxPooling2D)   (None, 28, 28, 256)       0         
+_________________________________________________________________
+block4_conv1 (Conv2D)        (None, 28, 28, 512)       1180160   
+_________________________________________________________________
+block4_conv2 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_conv3 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_pool (MaxPooling2D)   (None, 14, 14, 512)       0         
+_________________________________________________________________
+block5_conv1 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv2 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv3 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_pool (MaxPooling2D)   (None, 7, 7, 512)         0         
+_________________________________________________________________
+flatten (Flatten)            (None, 25088)             0         
+_________________________________________________________________
+fc1 (Dense)                  (None, 4096)              102764544 
+_________________________________________________________________
+fc2 (Dense)                  (None, 4096)              16781312  
+_________________________________________________________________
+predictions (Dense)          (None, 1000)              4097000   
+=================================================================
+Total params: 138,357,544
+Trainable params: 138,357,544
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         (None, 224, 224, 3)       0         
+_________________________________________________________________
+block1_conv1 (Conv2D)        (None, 224, 224, 64)      1792      
+_________________________________________________________________
+block1_conv2 (Conv2D)        (None, 224, 224, 64)      36928     
+_________________________________________________________________
+block1_pool (MaxPooling2D)   (None, 112, 112, 64)      0         
+_________________________________________________________________
+block2_conv1 (Conv2D)        (None, 112, 112, 128)     73856     
+_________________________________________________________________
+block2_conv2 (Conv2D)        (None, 112, 112, 128)     147584    
+_________________________________________________________________
+block2_pool (MaxPooling2D)   (None, 56, 56, 128)       0         
+_________________________________________________________________
+block3_conv1 (Conv2D)        (None, 56, 56, 256)       295168    
+_________________________________________________________________
+block3_conv2 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_conv3 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_pool (MaxPooling2D)   (None, 28, 28, 256)       0         
+_________________________________________________________________
+block4_conv1 (Conv2D)        (None, 28, 28, 512)       1180160   
+_________________________________________________________________
+block4_conv2 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_conv3 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_pool (MaxPooling2D)   (None, 14, 14, 512)       0         
+_________________________________________________________________
+block5_conv1 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv2 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv3 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_pool (MaxPooling2D)   (None, 7, 7, 512)         0         
+_________________________________________________________________
+flatten (Flatten)            (None, 25088)             0         
+_________________________________________________________________
+fc1 (Dense)                  (None, 4096)              102764544 
+_________________________________________________________________
+fc2 (Dense)                  (None, 4096)              16781312  
+_________________________________________________________________
+vgg16TL (Dense)              (None, 4)                 16388     
+=================================================================
+Total params: 134,276,932
+Trainable params: 134,276,932
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         (None, 224, 224, 3)       0         
+_________________________________________________________________
+block1_conv1 (Conv2D)        (None, 224, 224, 64)      1792      
+_________________________________________________________________
+block1_conv2 (Conv2D)        (None, 224, 224, 64)      36928     
+_________________________________________________________________
+block1_pool (MaxPooling2D)   (None, 112, 112, 64)      0         
+_________________________________________________________________
+block2_conv1 (Conv2D)        (None, 112, 112, 128)     73856     
+_________________________________________________________________
+block2_conv2 (Conv2D)        (None, 112, 112, 128)     147584    
+_________________________________________________________________
+block2_pool (MaxPooling2D)   (None, 56, 56, 128)       0         
+_________________________________________________________________
+block3_conv1 (Conv2D)        (None, 56, 56, 256)       295168    
+_________________________________________________________________
+block3_conv2 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_conv3 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_pool (MaxPooling2D)   (None, 28, 28, 256)       0         
+_________________________________________________________________
+block4_conv1 (Conv2D)        (None, 28, 28, 512)       1180160   
+_________________________________________________________________
+block4_conv2 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_conv3 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_pool (MaxPooling2D)   (None, 14, 14, 512)       0         
+_________________________________________________________________
+block5_conv1 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv2 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv3 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_pool (MaxPooling2D)   (None, 7, 7, 512)         0         
+_________________________________________________________________
+flatten (Flatten)            (None, 25088)             0         
+_________________________________________________________________
+fc1 (Dense)                  (None, 4096)              102764544 
+_________________________________________________________________
+fc2 (Dense)                  (None, 4096)              16781312  
+_________________________________________________________________
+vgg16TL (Dense)              (None, 4)                 16388     
+=================================================================
+Total params: 134,276,932
+Trainable params: 16,388
+Non-trainable params: 134,260,544
+_________________________________________________________________
+Transfer Learning Training...
+Train on 646 samples, validate on 162 samples
+Epoch 1/10
+
+ 32/646 [>.............................] - ETA: 1:00 - loss: 2.9931 - acc: 0.0938
+ 64/646 [=>............................] - ETA: 54s - loss: 2.4707 - acc: 0.2656 
+ 96/646 [===>..........................] - ETA: 51s - loss: 1.8898 - acc: 0.3958
+128/646 [====>.........................] - ETA: 48s - loss: 1.4476 - acc: 0.5391
+160/646 [======>.......................] - ETA: 45s - loss: 1.1861 - acc: 0.6250
+192/646 [=======>......................] - ETA: 41s - loss: 1.0395 - acc: 0.6771
+224/646 [=========>....................] - ETA: 38s - loss: 0.9036 - acc: 0.7232
+256/646 [==========>...................] - ETA: 35s - loss: 0.7973 - acc: 0.7578
+288/646 [============>.................] - ETA: 32s - loss: 0.7200 - acc: 0.7812
+320/646 [=============>................] - ETA: 29s - loss: 0.6686 - acc: 0.8000
+352/646 [===============>..............] - ETA: 26s - loss: 0.6142 - acc: 0.8182
+384/646 [================>.............] - ETA: 23s - loss: 0.5786 - acc: 0.8229
+416/646 [==================>...........] - ETA: 21s - loss: 0.5481 - acc: 0.8293
+448/646 [===================>..........] - ETA: 18s - loss: 0.5133 - acc: 0.8393
+480/646 [=====================>........] - ETA: 15s - loss: 0.4937 - acc: 0.8438
+512/646 [======================>.......] - ETA: 12s - loss: 0.4719 - acc: 0.8496
+544/646 [========================>.....] - ETA: 9s - loss: 0.4855 - acc: 0.8474 
+576/646 [=========================>....] - ETA: 6s - loss: 0.4706 - acc: 0.8524
+608/646 [===========================>..] - ETA: 3s - loss: 0.4478 - acc: 0.8586
+640/646 [============================>.] - ETA: 0s - loss: 0.4285 - acc: 0.8656
+646/646 [==============================] - 74s 114ms/step - loss: 0.4246 - acc: 0.8669 - val_loss: 0.0954 - val_acc: 0.9630
+Epoch 2/10
+
+ 32/646 [>.............................] - ETA: 51s - loss: 0.0152 - acc: 1.0000
+ 64/646 [=>............................] - ETA: 52s - loss: 0.0866 - acc: 0.9531
+ 96/646 [===>..........................] - ETA: 50s - loss: 0.0705 - acc: 0.9688
+128/646 [====>.........................] - ETA: 46s - loss: 0.0687 - acc: 0.9688
+160/646 [======>.......................] - ETA: 44s - loss: 0.0579 - acc: 0.9750
+192/646 [=======>......................] - ETA: 41s - loss: 0.0528 - acc: 0.9792
+224/646 [=========>....................] - ETA: 38s - loss: 0.0469 - acc: 0.9821
+256/646 [==========>...................] - ETA: 35s - loss: 0.0477 - acc: 0.9805
+288/646 [============>.................] - ETA: 32s - loss: 0.0482 - acc: 0.9792
+320/646 [=============>................] - ETA: 29s - loss: 0.0488 - acc: 0.9781
+352/646 [===============>..............] - ETA: 26s - loss: 0.0474 - acc: 0.9773
+384/646 [================>.............] - ETA: 24s - loss: 0.0447 - acc: 0.9792
+416/646 [==================>...........] - ETA: 21s - loss: 0.0418 - acc: 0.9808
+448/646 [===================>..........] - ETA: 18s - loss: 0.0403 - acc: 0.9821
+480/646 [=====================>........] - ETA: 15s - loss: 0.0385 - acc: 0.9833
+512/646 [======================>.......] - ETA: 12s - loss: 0.0365 - acc: 0.9844
+544/646 [========================>.....] - ETA: 9s - loss: 0.0367 - acc: 0.9835 
+576/646 [=========================>....] - ETA: 6s - loss: 0.0396 - acc: 0.9826
+608/646 [===========================>..] - ETA: 3s - loss: 0.0399 - acc: 0.9819
+640/646 [============================>.] - ETA: 0s - loss: 0.0389 - acc: 0.9828
+646/646 [==============================] - 74s 115ms/step - loss: 0.0400 - acc: 0.9814 - val_loss: 0.1750 - val_acc: 0.9321
+Epoch 3/10
+
+ 32/646 [>.............................] - ETA: 57s - loss: 0.1697 - acc: 0.9688
+ 64/646 [=>............................] - ETA: 55s - loss: 0.0880 - acc: 0.9844
+ 96/646 [===>..........................] - ETA: 50s - loss: 0.0613 - acc: 0.9896
+128/646 [====>.........................] - ETA: 47s - loss: 0.0473 - acc: 0.9922
+160/646 [======>.......................] - ETA: 44s - loss: 0.0384 - acc: 0.9938
+192/646 [=======>......................] - ETA: 41s - loss: 0.0325 - acc: 0.9948
+224/646 [=========>....................] - ETA: 38s - loss: 0.0286 - acc: 0.9955
+256/646 [==========>...................] - ETA: 35s - loss: 0.0263 - acc: 0.9961
+288/646 [============>.................] - ETA: 32s - loss: 0.0292 - acc: 0.9931
+320/646 [=============>................] - ETA: 29s - loss: 0.0296 - acc: 0.9906
+352/646 [===============>..............] - ETA: 26s - loss: 0.0283 - acc: 0.9915
+384/646 [================>.............] - ETA: 24s - loss: 0.0292 - acc: 0.9922
+416/646 [==================>...........] - ETA: 21s - loss: 0.0282 - acc: 0.9928
+448/646 [===================>..........] - ETA: 18s - loss: 0.0263 - acc: 0.9933
+480/646 [=====================>........] - ETA: 15s - loss: 0.0251 - acc: 0.9938
+512/646 [======================>.......] - ETA: 12s - loss: 0.0236 - acc: 0.9941
+544/646 [========================>.....] - ETA: 9s - loss: 0.0245 - acc: 0.9945 
+576/646 [=========================>....] - ETA: 6s - loss: 0.0233 - acc: 0.9948
+608/646 [===========================>..] - ETA: 3s - loss: 0.0231 - acc: 0.9951
+640/646 [============================>.] - ETA: 0s - loss: 0.0222 - acc: 0.9953
+646/646 [==============================] - 73s 113ms/step - loss: 0.0220 - acc: 0.9954 - val_loss: 0.0837 - val_acc: 0.9815
+Epoch 4/10
+
+ 32/646 [>.............................] - ETA: 52s - loss: 0.0344 - acc: 0.9688
+ 64/646 [=>............................] - ETA: 52s - loss: 0.0180 - acc: 0.9844
+ 96/646 [===>..........................] - ETA: 50s - loss: 0.0124 - acc: 0.9896
+128/646 [====>.........................] - ETA: 47s - loss: 0.0113 - acc: 0.9922
+160/646 [======>.......................] - ETA: 44s - loss: 0.0096 - acc: 0.9938
+192/646 [=======>......................] - ETA: 41s - loss: 0.0087 - acc: 0.9948
+224/646 [=========>....................] - ETA: 38s - loss: 0.0082 - acc: 0.9955
+256/646 [==========>...................] - ETA: 35s - loss: 0.0076 - acc: 0.9961
+288/646 [============>.................] - ETA: 32s - loss: 0.0070 - acc: 0.9965
+320/646 [=============>................] - ETA: 29s - loss: 0.0065 - acc: 0.9969
+352/646 [===============>..............] - ETA: 26s - loss: 0.0060 - acc: 0.9972
+384/646 [================>.............] - ETA: 23s - loss: 0.0057 - acc: 0.9974
+416/646 [==================>...........] - ETA: 20s - loss: 0.0055 - acc: 0.9976
+448/646 [===================>..........] - ETA: 18s - loss: 0.0053 - acc: 0.9978
+480/646 [=====================>........] - ETA: 15s - loss: 0.0051 - acc: 0.9979
+512/646 [======================>.......] - ETA: 12s - loss: 0.0050 - acc: 0.9980
+544/646 [========================>.....] - ETA: 9s - loss: 0.0048 - acc: 0.9982 
+576/646 [=========================>....] - ETA: 6s - loss: 0.0046 - acc: 0.9983
+608/646 [===========================>..] - ETA: 3s - loss: 0.0046 - acc: 0.9984
+640/646 [============================>.] - ETA: 0s - loss: 0.0046 - acc: 0.9984
+646/646 [==============================] - 73s 113ms/step - loss: 0.0046 - acc: 0.9985 - val_loss: 0.0733 - val_acc: 0.9815
+Epoch 5/10
+
+ 32/646 [>.............................] - ETA: 56s - loss: 0.0052 - acc: 1.0000
+ 64/646 [=>............................] - ETA: 52s - loss: 0.0054 - acc: 1.0000
+ 96/646 [===>..........................] - ETA: 50s - loss: 0.0039 - acc: 1.0000
+128/646 [====>.........................] - ETA: 47s - loss: 0.0031 - acc: 1.0000
+160/646 [======>.......................] - ETA: 43s - loss: 0.0027 - acc: 1.0000
+192/646 [=======>......................] - ETA: 40s - loss: 0.0024 - acc: 1.0000
+224/646 [=========>....................] - ETA: 37s - loss: 0.0022 - acc: 1.0000
+256/646 [==========>...................] - ETA: 34s - loss: 0.0021 - acc: 1.0000
+288/646 [============>.................] - ETA: 32s - loss: 0.0019 - acc: 1.0000
+320/646 [=============>................] - ETA: 29s - loss: 0.0022 - acc: 1.0000
+352/646 [===============>..............] - ETA: 26s - loss: 0.0020 - acc: 1.0000
+384/646 [================>.............] - ETA: 23s - loss: 0.0020 - acc: 1.0000
+416/646 [==================>...........] - ETA: 20s - loss: 0.0019 - acc: 1.0000
+448/646 [===================>..........] - ETA: 17s - loss: 0.0019 - acc: 1.0000
+480/646 [=====================>........] - ETA: 14s - loss: 0.0018 - acc: 1.0000
+512/646 [======================>.......] - ETA: 12s - loss: 0.0017 - acc: 1.0000
+544/646 [========================>.....] - ETA: 9s - loss: 0.0016 - acc: 1.0000 
+576/646 [=========================>....] - ETA: 6s - loss: 0.0016 - acc: 1.0000
+608/646 [===========================>..] - ETA: 3s - loss: 0.0016 - acc: 1.0000
+640/646 [============================>.] - ETA: 0s - loss: 0.0016 - acc: 1.0000
+646/646 [==============================] - 73s 113ms/step - loss: 0.0016 - acc: 1.0000 - val_loss: 0.0946 - val_acc: 0.9815
+Epoch 6/10
+
+ 32/646 [>.............................] - ETA: 54s - loss: 0.0015 - acc: 1.0000
+ 64/646 [=>............................] - ETA: 53s - loss: 9.5694e-04 - acc: 1.0000
+ 96/646 [===>..........................] - ETA: 50s - loss: 7.9266e-04 - acc: 1.0000
+128/646 [====>.........................] - ETA: 46s - loss: 6.6229e-04 - acc: 1.0000
+160/646 [======>.......................] - ETA: 43s - loss: 6.7084e-04 - acc: 1.0000
+192/646 [=======>......................] - ETA: 41s - loss: 6.3164e-04 - acc: 1.0000
+224/646 [=========>....................] - ETA: 38s - loss: 5.7653e-04 - acc: 1.0000
+256/646 [==========>...................] - ETA: 35s - loss: 5.5141e-04 - acc: 1.0000
+288/646 [============>.................] - ETA: 32s - loss: 5.4786e-04 - acc: 1.0000
+320/646 [=============>................] - ETA: 29s - loss: 5.2516e-04 - acc: 1.0000
+352/646 [===============>..............] - ETA: 26s - loss: 6.1905e-04 - acc: 1.0000
+384/646 [================>.............] - ETA: 23s - loss: 6.3607e-04 - acc: 1.0000
+416/646 [==================>...........] - ETA: 20s - loss: 6.4185e-04 - acc: 1.0000
+448/646 [===================>..........] - ETA: 18s - loss: 6.6009e-04 - acc: 1.0000
+480/646 [=====================>........] - ETA: 15s - loss: 7.1427e-04 - acc: 1.0000
+512/646 [======================>.......] - ETA: 12s - loss: 6.8471e-04 - acc: 1.0000
+544/646 [========================>.....] - ETA: 9s - loss: 6.8100e-04 - acc: 1.0000 
+576/646 [=========================>....] - ETA: 6s - loss: 6.6817e-04 - acc: 1.0000
+608/646 [===========================>..] - ETA: 3s - loss: 6.8126e-04 - acc: 1.0000
+640/646 [============================>.] - ETA: 0s - loss: 6.5660e-04 - acc: 1.0000
+646/646 [==============================] - 74s 114ms/step - loss: 6.5328e-04 - acc: 1.0000 - val_loss: 0.0801 - val_acc: 0.9815
+Epoch 7/10
+
+ 32/646 [>.............................] - ETA: 54s - loss: 1.5440e-04 - acc: 1.0000
+ 64/646 [=>............................] - ETA: 53s - loss: 2.6299e-04 - acc: 1.0000
+ 96/646 [===>..........................] - ETA: 49s - loss: 2.0208e-04 - acc: 1.0000
+128/646 [====>.........................] - ETA: 47s - loss: 1.8346e-04 - acc: 1.0000
+160/646 [======>.......................] - ETA: 44s - loss: 1.9886e-04 - acc: 1.0000
+192/646 [=======>......................] - ETA: 41s - loss: 1.9502e-04 - acc: 1.0000
+224/646 [=========>....................] - ETA: 38s - loss: 2.0148e-04 - acc: 1.0000
+256/646 [==========>...................] - ETA: 35s - loss: 1.8710e-04 - acc: 1.0000
+288/646 [============>.................] - ETA: 32s - loss: 1.7734e-04 - acc: 1.0000
+320/646 [=============>................] - ETA: 29s - loss: 1.7823e-04 - acc: 1.0000
+352/646 [===============>..............] - ETA: 26s - loss: 1.7701e-04 - acc: 1.0000
+384/646 [================>.............] - ETA: 23s - loss: 1.7206e-04 - acc: 1.0000
+416/646 [==================>...........] - ETA: 20s - loss: 2.2763e-04 - acc: 1.0000
+448/646 [===================>..........] - ETA: 17s - loss: 4.1844e-04 - acc: 1.0000
+480/646 [=====================>........] - ETA: 15s - loss: 3.9996e-04 - acc: 1.0000
+512/646 [======================>.......] - ETA: 12s - loss: 4.8425e-04 - acc: 1.0000
+544/646 [========================>.....] - ETA: 9s - loss: 5.2850e-04 - acc: 1.0000 
+576/646 [=========================>....] - ETA: 6s - loss: 5.0736e-04 - acc: 1.0000
+608/646 [===========================>..] - ETA: 3s - loss: 5.0684e-04 - acc: 1.0000
+640/646 [============================>.] - ETA: 0s - loss: 4.8620e-04 - acc: 1.0000
+646/646 [==============================] - 74s 114ms/step - loss: 4.8447e-04 - acc: 1.0000 - val_loss: 0.1149 - val_acc: 0.9753
+Epoch 8/10
+
+ 32/646 [>.............................] - ETA: 54s - loss: 2.6206e-04 - acc: 1.0000
+ 64/646 [=>............................] - ETA: 53s - loss: 1.7961e-04 - acc: 1.0000
+ 96/646 [===>..........................] - ETA: 49s - loss: 1.3503e-04 - acc: 1.0000
+128/646 [====>.........................] - ETA: 47s - loss: 1.2833e-04 - acc: 1.0000
+160/646 [======>.......................] - ETA: 43s - loss: 1.1582e-04 - acc: 1.0000
+192/646 [=======>......................] - ETA: 40s - loss: 1.0521e-04 - acc: 1.0000
+224/646 [=========>....................] - ETA: 38s - loss: 1.1186e-04 - acc: 1.0000
+256/646 [==========>...................] - ETA: 35s - loss: 1.0792e-04 - acc: 1.0000
+288/646 [============>.................] - ETA: 32s - loss: 1.0122e-04 - acc: 1.0000
+320/646 [=============>................] - ETA: 29s - loss: 9.9555e-05 - acc: 1.0000
+352/646 [===============>..............] - ETA: 26s - loss: 9.4214e-05 - acc: 1.0000
+384/646 [================>.............] - ETA: 23s - loss: 9.6808e-05 - acc: 1.0000
+416/646 [==================>...........] - ETA: 20s - loss: 9.1194e-05 - acc: 1.0000
+448/646 [===================>..........] - ETA: 17s - loss: 9.0534e-05 - acc: 1.0000
+480/646 [=====================>........] - ETA: 15s - loss: 8.7843e-05 - acc: 1.0000
+512/646 [======================>.......] - ETA: 12s - loss: 8.9899e-05 - acc: 1.0000
+544/646 [========================>.....] - ETA: 9s - loss: 9.4169e-05 - acc: 1.0000 
+576/646 [=========================>....] - ETA: 6s - loss: 9.0901e-05 - acc: 1.0000
+608/646 [===========================>..] - ETA: 3s - loss: 9.3862e-05 - acc: 1.0000
+640/646 [============================>.] - ETA: 0s - loss: 9.1081e-05 - acc: 1.0000
+646/646 [==============================] - 74s 114ms/step - loss: 9.1745e-05 - acc: 1.0000 - val_loss: 0.1076 - val_acc: 0.9753
+Epoch 9/10
+
+ 32/646 [>.............................] - ETA: 52s - loss: 7.8727e-05 - acc: 1.0000
+ 64/646 [=>............................] - ETA: 50s - loss: 5.6747e-05 - acc: 1.0000
+ 96/646 [===>..........................] - ETA: 47s - loss: 5.0562e-05 - acc: 1.0000
+128/646 [====>.........................] - ETA: 44s - loss: 5.4144e-05 - acc: 1.0000
+160/646 [======>.......................] - ETA: 41s - loss: 5.5609e-05 - acc: 1.0000
+192/646 [=======>......................] - ETA: 39s - loss: 5.0582e-05 - acc: 1.0000
+224/646 [=========>....................] - ETA: 37s - loss: 5.4375e-05 - acc: 1.0000
+256/646 [==========>...................] - ETA: 34s - loss: 5.1400e-05 - acc: 1.0000
+288/646 [============>.................] - ETA: 31s - loss: 4.8013e-05 - acc: 1.0000
+320/646 [=============>................] - ETA: 29s - loss: 5.0201e-05 - acc: 1.0000
+352/646 [===============>..............] - ETA: 26s - loss: 4.8725e-05 - acc: 1.0000
+384/646 [================>.............] - ETA: 23s - loss: 4.9972e-05 - acc: 1.0000
+416/646 [==================>...........] - ETA: 20s - loss: 4.8492e-05 - acc: 1.0000
+448/646 [===================>..........] - ETA: 17s - loss: 4.6966e-05 - acc: 1.0000
+480/646 [=====================>........] - ETA: 14s - loss: 4.6989e-05 - acc: 1.0000
+512/646 [======================>.......] - ETA: 12s - loss: 4.6332e-05 - acc: 1.0000
+544/646 [========================>.....] - ETA: 9s - loss: 4.5742e-05 - acc: 1.0000 
+576/646 [=========================>....] - ETA: 6s - loss: 4.4250e-05 - acc: 1.0000
+608/646 [===========================>..] - ETA: 3s - loss: 4.2558e-05 - acc: 1.0000
+640/646 [============================>.] - ETA: 0s - loss: 4.1299e-05 - acc: 1.0000
+646/646 [==============================] - 73s 113ms/step - loss: 4.0925e-05 - acc: 1.0000 - val_loss: 0.0926 - val_acc: 0.9815
+Epoch 10/10
+
+ 32/646 [>.............................] - ETA: 58s - loss: 1.0137e-05 - acc: 1.0000
+ 64/646 [=>............................] - ETA: 53s - loss: 1.1621e-05 - acc: 1.0000
+ 96/646 [===>..........................] - ETA: 51s - loss: 2.2051e-05 - acc: 1.0000
+128/646 [====>.........................] - ETA: 47s - loss: 2.2087e-05 - acc: 1.0000
+160/646 [======>.......................] - ETA: 44s - loss: 1.9054e-05 - acc: 1.0000
+192/646 [=======>......................] - ETA: 41s - loss: 1.8434e-05 - acc: 1.0000
+224/646 [=========>....................] - ETA: 38s - loss: 1.7204e-05 - acc: 1.0000
+256/646 [==========>...................] - ETA: 35s - loss: 1.5626e-05 - acc: 1.0000
+288/646 [============>.................] - ETA: 32s - loss: 1.6137e-05 - acc: 1.0000
+320/646 [=============>................] - ETA: 29s - loss: 1.5316e-05 - acc: 1.0000
+352/646 [===============>..............] - ETA: 26s - loss: 1.6347e-05 - acc: 1.0000
+384/646 [================>.............] - ETA: 23s - loss: 1.7740e-05 - acc: 1.0000
+416/646 [==================>...........] - ETA: 20s - loss: 1.6547e-05 - acc: 1.0000
+448/646 [===================>..........] - ETA: 18s - loss: 1.6659e-05 - acc: 1.0000
+480/646 [=====================>........] - ETA: 15s - loss: 1.7333e-05 - acc: 1.0000
+512/646 [======================>.......] - ETA: 12s - loss: 1.7654e-05 - acc: 1.0000
+544/646 [========================>.....] - ETA: 9s - loss: 1.6927e-05 - acc: 1.0000 
+576/646 [=========================>....] - ETA: 6s - loss: 1.6642e-05 - acc: 1.0000
+608/646 [===========================>..] - ETA: 3s - loss: 1.8275e-05 - acc: 1.0000
+640/646 [============================>.] - ETA: 0s - loss: 1.8770e-05 - acc: 1.0000
+646/646 [==============================] - 73s 113ms/step - loss: 1.8606e-05 - acc: 1.0000 - val_loss: 0.1110 - val_acc: 0.9753
+Training time: -734.5921046733856
+Evaluation...
+
+ 10/162 [>.............................] - ETA: 14s
+ 20/162 [==>...........................] - ETA: 13s
+ 30/162 [====>.........................] - ETA: 13s
+ 40/162 [======>.......................] - ETA: 11s
+ 50/162 [========>.....................] - ETA: 10s
+ 60/162 [==========>...................] - ETA: 9s 
+ 70/162 [===========>..................] - ETA: 8s
+ 80/162 [=============>................] - ETA: 8s
+ 90/162 [===============>..............] - ETA: 6s
+100/162 [=================>............] - ETA: 5s
+110/162 [===================>..........] - ETA: 4s
+120/162 [=====================>........] - ETA: 4s
+130/162 [=======================>......] - ETA: 3s
+140/162 [========================>.....] - ETA: 2s
+150/162 [==========================>...] - ETA: 1s
+160/162 [============================>.] - ETA: 0s
+162/162 [==============================] - 16s 96ms/step
+[INFO] loss=0.1110, accuracy: 97.5309%
+Finished
