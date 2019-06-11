@@ -1,6 +1,7 @@
 import numpy as np
 import os
 import time
+import matplotlib.pyplot as plt
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
@@ -85,22 +86,53 @@ def main():
     custom_vgg_model.summary()
 
     custom_vgg_model.layers[3].trainable
-    custom_vgg_model.layers[-1].trainable
+    # custom_vgg_model.layers[-1].trainable
 
     # Model compilation
     custom_vgg_model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
     print('Transfer Learning Training...')
     t = time.time()
     hist = custom_vgg_model.fit(xtrain, ytrain,
-                                batch_size=32,
+                                batch_size=16,
                                 epochs=10,
                                 verbose=1,
                                 validation_data=(xtest, ytest))
-    print('Training time: %s'%(t-time.time()))
+    print('Training time: %s'%(time.time()-t))
     print('Evaluation...')
     (loss, accuracy)  = custom_vgg_model.evaluate(xtest, ytest, batch_size=10, verbose=1)
     print("[INFO] loss={:.4f}, accuracy: {:.4f}%".format(loss, accuracy*100))
     print("Finished")
+
+    # Model Training Graphics
+    # Visualizing losses and accuracy
+    train_loss = hist.history['loss']
+    val_loss = hist.history['val_loss']
+    train_acc = hist.history['acc']
+    val_acc = hist.history['val_acc']
+
+    xc = range(10)    # Este valor esta anclado al numero de epocas
+
+    plt.figure(1, figsize=(7, 5))
+    plt.plot(xc, train_loss)
+    plt.plot(xc, val_loss)
+    plt.xlabel('num of epochs')
+    plt.ylabel('loss')
+    plt.title('train_loss vs val_loss')
+    plt.grid(True)
+    plt.legend(['train', 'val'])
+    plt.style.use(['classic'])    # revisar que mas hay
+    plt.savefig('main_train_val_loss.jpg')
+
+    plt.figure(2, figsize=(7, 5))
+    plt.plot(xc, train_acc)
+    plt.plot(xc, val_acc)
+    plt.xlabel('num of epochs')
+    plt.ylabel('accuracy')
+    plt.title('train_accuracy vs val_accuracy')
+    plt.grid(True)
+    plt.legend(['train', 'val'], loc=4)
+    plt.style.use(['classic'])  # revisar que mas hay
+    plt.savefig('main_train_val_acc.jpg')
 
 
 if __name__ == '__main__':
