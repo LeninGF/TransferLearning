@@ -2,6 +2,7 @@ import numpy as np
 import os
 import time
 import matplotlib.pyplot as plt
+# plt.switch_backend('agg')     # This line to work in server with no display
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
@@ -130,7 +131,7 @@ def main():
     plt.grid(True)
     plt.legend(['train', 'val'])
     plt.style.use(['classic'])    # revisar que mas hay
-    plt.savefig('main_train_val_loss.jpg')
+    plt.savefig('vgg16_train_val_loss.jpg')
 
     plt.figure(2, figsize=(7, 5))
     plt.plot(xc, train_acc)
@@ -141,7 +142,7 @@ def main():
     plt.grid(True)
     plt.legend(['train', 'val'], loc=4)
     plt.style.use(['classic'])  # revisar que mas hay
-    plt.savefig('main_train_val_acc.jpg')
+    plt.savefig('vgg16_train_val_acc.jpg')
 
     # plt.show()
 
