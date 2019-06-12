@@ -62,8 +62,7 @@ def labelling_mammo(number_of_classes, number_of_samples):
     return labels
 
 
-
-def main():
+def main(train_epochs):
     print('Hello Lenin Welcome to Transfer Learning with VGG16')
     # Reading images to form X vector
     img_data = read_dataset('/data_roi_single/train')
@@ -103,7 +102,7 @@ def main():
     print('Transfer Learning Training...')
     t = time.time()
 
-    num_of_epochs = 100   # User defines number of epochs
+    num_of_epochs = train_epochs   # User defines number of epochs
 
     hist = custom_vgg_model.fit(xtrain, ytrain,
                                 batch_size=64,
@@ -151,4 +150,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    num_train_epochs = 6000
+    main(train_epochs=num_train_epochs)
