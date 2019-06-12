@@ -2,6 +2,7 @@ import numpy as np
 import os
 import time
 import matplotlib.pyplot as plt
+# plt.switch_backend('agg')     # This line to work in server with no display
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
