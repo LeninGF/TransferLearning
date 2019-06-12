@@ -134,6 +134,8 @@ def main():
     plt.style.use(['classic'])  # revisar que mas hay
     plt.savefig('main_train_val_acc.jpg')
 
+    # plt.show()
+
 
 if __name__ == '__main__':
     main()
