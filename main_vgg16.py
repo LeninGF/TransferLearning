@@ -67,7 +67,7 @@ def main():
     print('Hello Lenin Welcome to Transfer Learning with VGG16')
     # Reading images to form X vector
     img_data = read_dataset('/data_roi_single/train')
-    categories_names = ['cats', 'dogs', 'horses', 'humans']
+    categories_names = ['benign', 'malignant']
     num_classes = 2
     # labels = labelling_outputs(num_classes, img_data.shape[0])
     labels = labelling_mammo(num_classes, img_data.shape[0])
@@ -76,7 +76,7 @@ def main():
     #Shuffle data
     x,y = shuffle(img_data, y_one_hot, random_state=2)
     # Dataset split
-    xtrain, xtest, ytrain, ytest = train_test_split(x,y,test_size=0.2, random_state=2)
+    xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size=0.2, random_state=2)
 
     #########################################################################################
     # Custom_vgg_model_1
@@ -95,16 +95,19 @@ def main():
         layer.trainable = False
     custom_vgg_model.summary()
 
-    custom_vgg_model.layers[3].trainable
-    custom_vgg_model.layers[-1].trainable
+    # custom_vgg_model.layers[3].trainable
+    # custom_vgg_model.layers[-1].trainable
 
     # Model compilation
     custom_vgg_model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
     print('Transfer Learning Training...')
     t = time.time()
+
+    num_of_epochs = 100   # User defines number of epochs
+
     hist = custom_vgg_model.fit(xtrain, ytrain,
                                 batch_size=64,
-                                epochs=10,
+                                epochs=num_of_epochs,
                                 verbose=1,
                                 validation_data=(xtest, ytest))
     print('Training time: %s'%(t-time.time()))
@@ -120,7 +123,7 @@ def main():
     train_acc = hist.history['acc']
     val_acc = hist.history['val_acc']
 
-    xc = range(10)    # Este valor esta anclado al numero de epocas
+    xc = range(num_of_epochs)    # Este valor esta anclado al numero de epocas
 
     plt.figure(1, figsize=(7, 5))
     plt.plot(xc, train_loss)
