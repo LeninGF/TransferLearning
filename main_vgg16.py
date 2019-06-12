@@ -109,7 +109,10 @@ def main(train_epochs):
                                 epochs=num_of_epochs,
                                 verbose=1,
                                 validation_data=(xtest, ytest))
-    print('Training time: %s'%(t-time.time()))
+    print('Training time: %s'%(time.time()-t))
+    # Model saving parameters
+    model.save('vgg16_tf_bc.h5')
+
     print('Evaluation...')
     (loss, accuracy)  = custom_vgg_model.evaluate(xtest, ytest, batch_size=10, verbose=1)
     print("[INFO] loss={:.4f}, accuracy: {:.4f}%".format(loss, accuracy*100))
