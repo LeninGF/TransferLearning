@@ -94,7 +94,7 @@ def main():
     print('Transfer Learning Training...')
     t = time.time()
     hist = custom_vgg_model.fit(xtrain, ytrain,
-                                batch_size=16,
+                                batch_size=64,
                                 epochs=10,
                                 verbose=1,
                                 validation_data=(xtest, ytest))

@@ -94,7 +94,7 @@ def main(train_epochs):
         layer.trainable = False
     custom_vgg_model.summary()
 
-    # custom_vgg_model.layers[3].trainable
+    custom_vgg_model.layers[3].trainable
     # custom_vgg_model.layers[-1].trainable
 
     # Model compilation
