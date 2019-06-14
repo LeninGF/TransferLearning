@@ -111,7 +111,8 @@ def main(train_epochs):
                                 validation_data=(xtest, ytest))
     print('Training time: %s'%(time.time()-t))
     # Model saving parameters
-    model.save('vgg16_tf_bc.h5')
+    custom_vgg_model.save('vgg16_tf_bc.h5')
+
 
     print('Evaluation...')
     (loss, accuracy)  = custom_vgg_model.evaluate(xtest, ytest, batch_size=10, verbose=1)
