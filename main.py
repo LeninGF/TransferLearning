@@ -101,7 +101,7 @@ def main():
     print('Training time: %s'%(time.time()-t))
 
     # Model saving parameters
-    model.save('cat-dog-horse-human.h5')
+    custom_vgg_model.save('cat-dog-horse-human.h5')
 
     print('Evaluation...')
     (loss, accuracy)  = custom_vgg_model.evaluate(xtest, ytest, batch_size=10, verbose=1)
