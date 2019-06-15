@@ -94,6 +94,7 @@ def main(train_epochs):
         layer.trainable = False
     custom_vgg_model.summary()
 
+
     custom_vgg_model.layers[3].trainable
     # custom_vgg_model.layers[-1].trainable
 
@@ -111,7 +112,9 @@ def main(train_epochs):
                                 validation_data=(xtest, ytest))
     print('Training time: %s'%(time.time()-t))
     # Model saving parameters
+
     custom_vgg_model.save('vgg16_tf_bc.h5')
+
 
 
     print('Evaluation...')
@@ -154,5 +157,6 @@ def main(train_epochs):
 
 
 if __name__ == '__main__':
+
     num_train_epochs = 1000
     main(train_epochs=num_train_epochs)
