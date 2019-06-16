@@ -57,8 +57,20 @@ def main(path_to_h5, path_to_test_folder):
     print('must be a dog', y2)
     y2 = prediction(new_model, path_to_test_folder, img_name='dog3.jpg')
     print('must be a dog', y2)
+    y2 = prediction(new_model, path_to_test_folder, img_name='dog10.jpg')
+    print('must be a dog', y2)
+    y2 = prediction(new_model, path_to_test_folder, img_name='dog11.jpg')
+    print('must be a dog', y2)
+    y2 = prediction(new_model, path_to_test_folder, img_name='dog12.jpg')
+    print('must be a dog', y2)
 
     y3 = prediction(new_model, path_to_test_folder, img_name='horse.jpg')
+    print('must be a horse', y3)
+    y3 = prediction(new_model, path_to_test_folder, img_name='horse-1.jpg')
+    print('must be a horse', y3)
+    y3 = prediction(new_model, path_to_test_folder, img_name='horse-2.jpg')
+    print('must be a horse', y3)
+    y3 = prediction(new_model, path_to_test_folder, img_name='horse-3.jpg')
     print('must be a horse', y3)
 
     y4 = prediction(new_model, path_to_test_folder, img_name='person1.jpg')
@@ -66,6 +78,12 @@ def main(path_to_h5, path_to_test_folder):
     y4 = prediction(new_model, path_to_test_folder, img_name='person2.jpg')
     print('must be a human', y4)
     y4 = prediction(new_model, path_to_test_folder, img_name='person3.png')
+    print('must be a human', y4)
+    y4 = prediction(new_model, path_to_test_folder, img_name='person-180.jpg')
+    print('must be a human', y4)
+    y4 = prediction(new_model, path_to_test_folder, img_name='person-181.jpg')
+    print('must be a human', y4)
+    y4 = prediction(new_model, path_to_test_folder, img_name='person-182.jpg')
     print('must be a human', y4)
 
     return 0

@@ -48,10 +48,10 @@ def read_dataset(data_location):
 
 def labelling_outputs(number_of_classes, number_of_samples):
     labels = np.ones((number_of_samples,), dtype='int64')
-    labels[0:202] = 0
-    labels[202:404] = 1
-    labels[404:606] = 2
-    labels[606:] = 3
+    labels[0:202] = 0    # dogs?
+    labels[202:404] = 1  # cats?
+    labels[404:606] = 2  # human?
+    labels[606:] = 3     # horse?
     return labels
 
 
