@@ -45,22 +45,22 @@ def main(path_to_h5, path_to_test_folder):
     print(new_model.summary())
     # Prediction
     y1 = prediction(new_model, path_to_test_folder, img_name='cat1.jpg')
-    print(y1)
+    print('must be a cat', y1)
     y1 = prediction(new_model, path_to_test_folder, img_name='cat2.jpg')
-    print(y1)
+    print('must be a cat', y1)
     y1 = prediction(new_model, path_to_test_folder, img_name='cat3.jpg')
-    print(y1)
+    print('must be a cat', y1)
 
     y2 = prediction(new_model, path_to_test_folder, img_name='dog1.jpg')
-    print(y2)
+    print('must be a dog', y2)
     y2 = prediction(new_model, path_to_test_folder, img_name='dog2.jpg')
-    print(y2)
+    print('must be a dog', y2)
     y2 = prediction(new_model, path_to_test_folder, img_name='dog3.jpg')
-    print(y2)
+    print('must be a dog', y2)
 
     y3 = prediction(new_model, path_to_test_folder, img_name='horse.jpg')
-    print(y3)
-    
+    print('must be a horse', y3)
+
     return 0
 
 
