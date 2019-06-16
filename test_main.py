@@ -61,6 +61,13 @@ def main(path_to_h5, path_to_test_folder):
     y3 = prediction(new_model, path_to_test_folder, img_name='horse.jpg')
     print('must be a horse', y3)
 
+    y4 = prediction(new_model, path_to_test_folder, img_name='person1.jpg')
+    print('must be a human', y4)
+    y4 = prediction(new_model, path_to_test_folder, img_name='person2.jpg')
+    print('must be a human', y4)
+    y4 = prediction(new_model, path_to_test_folder, img_name='person3.png')
+    print('must be a human', y4)
+
     return 0
 
 
