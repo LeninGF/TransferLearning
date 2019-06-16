@@ -25,6 +25,6 @@ print('Input Image Shape: ', x.shape)
 # We print top 3 predictions with their % of probability
 #%%
 preds = new_model.predict(x)
-print('Predicted: ', decode_predictions(preds, top=3)[0])
-
+# print('Predicted: ', decode_predictions(preds, top=3)[0])
+print(preds)
 
