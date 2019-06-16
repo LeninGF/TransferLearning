@@ -14,7 +14,7 @@ from keras.models import load_model
 new_model = load_model('cat-dog-horse-human.h5')
 print(new_model.summary())
 
-img_path = './test_cadohohu/cat1.jpg'
+img_path = './test_cadohohu/dog1.jpg'
 img = image.load_img(img_path, target_size=(224, 224))
 x = image.img_to_array(img)
 x = np.expand_dims(x,axis=0)
