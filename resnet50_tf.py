@@ -85,7 +85,7 @@ def main(train_epochs):
     model = VGG16(input_tensor=image_input, include_top=True, weights='imagenet')
     model.summary()
     last_layer = model.get_layer('fc2').output
-    out = Dense(num_classes, activation='sigmoid', name='vgg16TL')(last_layer)      # sigmoid insted of softmax
+    out = Dense(num_classes, activation='softmax', name='vgg16TL')(last_layer)
     custom_vgg_model = Model(image_input, out)
     custom_vgg_model.summary()
     # until this point the custom model is retrainable at all layers
@@ -99,7 +99,7 @@ def main(train_epochs):
     # custom_vgg_model.layers[-1].trainable
 
     # Model compilation
-    custom_vgg_model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['accuracy'])    # binary cross entropy instead of categorical
+    custom_vgg_model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
     print('Transfer Learning Training...')
     t = time.time()
 
