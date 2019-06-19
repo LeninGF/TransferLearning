@@ -39,13 +39,24 @@ def prediction(model, path2_folder, img_name):
     return preds
 
 
+def class_prediction(model, path2_folder, img_name):
+    img_path = os.path.join(path2_folder, img_name)
+    print(img_path)
+    x = process_image(path2img=img_path)
+    class_preds = model.predict_classes(x)
+    return class_preds
+
+
 def main(path_to_h5, path_to_test_folder):
     # Loading model from h5 file
     new_model = load_model(path_to_h5)
     print(new_model.summary())
     # Prediction
     y1 = prediction(new_model, path_to_test_folder, img_name='cat1.jpg')
+    y1c = class_prediction(new_model, path_to_test_folder, img_name='cat1.jpg')
     print('must be a cat', y1)
+    print('must be a cat', y1c)
+
     y1 = prediction(new_model, path_to_test_folder, img_name='cat2.jpg')
     print('must be a cat', y1)
     y1 = prediction(new_model, path_to_test_folder, img_name='cat3.jpg')
