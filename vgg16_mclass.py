@@ -9,6 +9,7 @@ In this script I am going to replace the labelling function proposed by the auth
 by the one used in: https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a
 
 '''
+
 import numpy as np
 import os
 import time
@@ -25,7 +26,7 @@ from sklearn.utils import shuffle
 from sklearn.model_selection import train_test_split
 
 
-def read_dataset(data_location):
+def read_dataset(data_location, labels_dict):
     '''
     :param data_location: '/data'
     :return:
@@ -38,6 +39,7 @@ def read_dataset(data_location):
     img_labels_list = []
     for dataset in data_dir_list:
         img_list = os.listdir(data_path+'/'+dataset)
+        label = labels_dict[dataset]
         print('Loading images of dataset -'+'{}\n'.format(dataset))
         for img in img_list:
             img_path = data_path+'/'+dataset+'/'+img
@@ -48,7 +50,7 @@ def read_dataset(data_location):
             # x = x/255
             print('Input image shape: ', x.shape)
             img_data_list.append(x)
-            img_labels_list.append(img_path)
+            img_labels_list.append(label)
     img_data = np.array(img_data_list)
     img_label = np.array(img_labels_list)
     # img_data = img_data.astype('float32')
@@ -75,16 +77,17 @@ def labelling_outputs(number_of_classes, number_of_samples):
 def main():
     print('Hello Lenin Welcome to Transfer Learning with VGG16')
     # Reading images to form X vector
-    img_data, img_labels = read_dataset('/data')
-    categories_names = ['cats', 'dogs', 'horses', 'humans']
+    labels_name = {'cats': 0, 'dogs': 1, 'horses': 2, 'Humans': 3}
+    img_data, img_labels = read_dataset('/data', labels_dict=labels_name)
+    print(np.unique(img_labels, return_counts=True))
     num_classes = 4
-    labels = labelling_outputs(num_classes, img_data.shape[0])
+    # labels = labelling_outputs(num_classes, img_data.shape[0])
     # converting class labels to one-hot encoding
-    y_one_hot =np_utils.to_categorical(labels, num_classes)
+    y_one_hot =np_utils.to_categorical(img_labels, num_classes)
     #Shuffle data
     x,y = shuffle(img_data, y_one_hot, random_state=2)
     # Dataset split
-    xtrain, xtest, ytrain, ytest = train_test_split(x,y,test_size=0.2, random_state=2)
+    xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size=0.2, random_state=2)
 
     #########################################################################################
     # Custom_vgg_model_1
@@ -119,8 +122,7 @@ def main():
 
     # Model saving parameters
 
-    custom_vgg_model.save('cat-dog-horse-human.h5')
-
+    custom_vgg_model.save('cat-dog-horse-human-2.h5')
 
     print('Evaluation...')
     (loss, accuracy)  = custom_vgg_model.evaluate(xtest, ytest, batch_size=10, verbose=1)
@@ -158,7 +160,7 @@ def main():
     plt.style.use(['classic'])  # revisar que mas hay
     plt.savefig('main_train_val_acc.jpg')
 
-    # plt.show()
+    plt.show()
 
 
 if __name__ == '__main__':
