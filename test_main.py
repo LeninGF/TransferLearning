@@ -102,4 +102,4 @@ def main(path_to_h5, path_to_test_folder):
 
 
 if __name__ == '__main__':
-    main(path_to_h5='cat-dog-horse-human.h5', path_to_test_folder='./test_cadohohu')
+    main(path_to_h5='cat-dog-horse-human-2.h5', path_to_test_folder='./test_cadohohu')
