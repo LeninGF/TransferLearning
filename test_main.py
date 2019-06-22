@@ -56,6 +56,7 @@ def main(path_to_h5, path_to_test_folder):
     y1 = prediction(new_model, path_to_test_folder, img_name='cat1.jpg')
     # y1c = class_prediction(new_model, path_to_test_folder, img_name='cat1.jpg')
     print('must be a cat', y1)
+    print(np.argmax(y1))
     # print('must be a cat', y1c)
 
     y1 = prediction(new_model, path_to_test_folder, img_name='cat2.jpg')
