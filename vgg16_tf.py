@@ -167,5 +167,5 @@ def main(train_epochs):
 
 if __name__ == '__main__':
 
-    num_train_epochs = 1000
+    num_train_epochs = 300
     main(train_epochs=num_train_epochs)
