@@ -75,12 +75,12 @@ def main(train_epochs):
     labels_name = {'benign': 0, 'malignant': 1}
     img_data, img_labels = read_dataset('/data_roi_single/train', labels_dict=labels_name)
     print(np.unique(img_labels, return_counts=True))
-    categories_names = ['benign', 'malignant']
+    # categories_names = ['benign', 'malignant']
     num_classes = 2
     # labels = labelling_outputs(num_classes, img_data.shape[0])
-    labels = labelling_mammo(num_classes, img_data.shape[0])
+    # labels = labelling_mammo(num_classes, img_data.shape[0])
     # converting class labels to one-hot encoding
-    y_one_hot =np_utils.to_categorical(labels, num_classes)
+    y_one_hot =np_utils.to_categorical(img_labels, num_classes)
     #Shuffle data
     x, y = shuffle(img_data, y_one_hot, random_state=2)
     # Dataset split
