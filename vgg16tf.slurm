@@ -6,6 +6,6 @@
 #SBATCH -p quinde-G9-2680
 
 hostname
-python vgg16_tf.py
+python vgg16_tf2.py
 
 echo "Training finished"
