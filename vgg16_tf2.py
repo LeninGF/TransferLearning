@@ -8,7 +8,7 @@ from tensorflow._api.v1.keras.applications.vgg16 import preprocess_input, decode
 from tensorflow._api.v1.keras.layers import Dense, Activation, Flatten
 from tensorflow._api.v1.keras.applications.vgg16 import VGG16 
 
-from tensorflow._api.v1.keras.layers import merge, Input
+from tensorflow._api.v1.keras.layers import Input
 from tensorflow._api.v1.keras.models import Model
 from tensorflow._api.v1.keras.utils import np_utils, shuffle
 
