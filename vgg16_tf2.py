@@ -4,7 +4,7 @@ import time
 import matplotlib.pyplot as plt
 # plt.switch_backend('agg')     # This line to work in server with no display
 from tensorflow._api.v1.keras.preprocessing import image
-from tensorflow.imagenet_utils import preprocess_input, decode_predictions
+from tensorflow._api.v1.keras.applications.vgg16 import preprocess_input, decode_predictions
 from tensorflow._api.v1.keras.layers import Dense, Activation, Flatten
 from tensorflow._api.v1.keras.applications.vgg16 import VGG16 
 
