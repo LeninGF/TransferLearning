@@ -11,7 +11,7 @@ from tensorflow._api.v1.keras.applications.vgg16 import VGG16
 from tensorflow._api.v1.keras.layers import Input
 from tensorflow._api.v1.keras.models import Model
 from tensorflow._api.v1.keras.utils import to_categorical
-from tensorflow.keras.utils import shuffle
+from sklearn.utils import shuffle
 
 from sklearn.model_selection import train_test_split
 
