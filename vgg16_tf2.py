@@ -3,14 +3,14 @@ import os
 import time
 import matplotlib.pyplot as plt
 # plt.switch_backend('agg')     # This line to work in server with no display
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.imagenet_utils import preprocess_input, decode_predictions
-from tensorflow.keras.layers import Dense, Activation, Flatten
-from tensorflow.keras.applications.vgg16 import VGG16 
+from tensorflow._api.v1.keras.preprocessing import image
+from tensorflow._api.v1.keras.applications.imagenet_utils import preprocess_input, decode_predictions
+from tensorflow._api.v1.keras.layers import Dense, Activation, Flatten
+from tensorflow._api.v1.keras.applications.vgg16 import VGG16 
 
-from tensorflow.keras.layers import merge, Input
-from tensorflow.keras.models import Model
-from tensorflow.keras.utils import np_utils, shuffle
+from tensorflow._api.v1.keras.layers import merge, Input
+from tensorflow._api.v1.keras.models import Model
+from tensorflow._api.v1.keras.utils import np_utils, shuffle
 
 from sklearn.model_selection import train_test_split
 
