@@ -10,7 +10,7 @@ from tensorflow._api.v1.keras.applications.vgg16 import VGG16
 
 from tensorflow._api.v1.keras.layers import Input
 from tensorflow._api.v1.keras.models import Model
-from tensorflow._api.v1.keras.utils import np_utils, shuffle
+from tensorflow._api.v1.keras.utils import shuffle, to_categorical
 
 from sklearn.model_selection import train_test_split
 
@@ -81,7 +81,7 @@ def main(train_epochs):
     # labels = labelling_outputs(num_classes, img_data.shape[0])
     # labels = labelling_mammo(num_classes, img_data.shape[0])
     # converting class labels to one-hot encoding
-    y_one_hot =np_utils.to_categorical(img_labels, num_classes)
+    y_one_hot =to_categorical(img_labels, num_classes)
     #Shuffle data
     x, y = shuffle(img_data, y_one_hot, random_state=2)
     # Dataset split
